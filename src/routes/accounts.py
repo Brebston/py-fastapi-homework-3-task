@@ -323,7 +323,7 @@ async def login_user(
 
 
 @router.post(
-    "/refresh/",
+    "/refresh/", #CORRECT!!
     response_model=RefreshTokenResponseSchema,
     status_code=status.HTTP_200_OK,
 )
