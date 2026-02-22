@@ -7,6 +7,7 @@ from schemas.movies import (
 )
 from schemas.accounts import (
     UserRegistrationRequestSchema,
+    RefreshTokenResponseSchema,
     UserResponseSchema,
     ActivateUserRequestSchema,
     MessageResponseSchema,
